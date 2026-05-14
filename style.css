@@ -1,3 +1,6 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
 :root{
     --cor-de-fundo:#1E1E1E;
     --verde:#6FFF57;
@@ -53,3 +56,17 @@ body{
     border-right:2px solid var(--botao-ativo);
     border-top:none;
 }
+
+.botao:first-child{
+    border-radius:40px 40px 0 0;
+}
+
+.botoes{
+    display:block;
+}
+
+.ativo{
+    background-color:var(--botao-ativo);
+    Border-bottom: 4px solid var(--verde);
+}
+
